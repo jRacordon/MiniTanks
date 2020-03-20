@@ -40,8 +40,8 @@ public class MakeFolders : ScriptableObject
     private static void CreateAssetsFolders(string _path)
     {
         Directory.CreateDirectory(_path + "Editor");
-        Directory.CreateDirectory(_path + "Editor/Lucine/Tools");
-        Directory.CreateDirectory(_path + "Editor/Lucine/Resources");
+        Directory.CreateDirectory(_path + "Editor/Ouroboros Games/Tools");
+        Directory.CreateDirectory(_path + "Editor/Ouroboros Games/Resources");
 
         //File.Move(_path + "Editor/Template/MakeFolders.cs", _path + "Editor/Lucine/Tools/MakeFolders.cs");
         //File.Move(_path + "Editor/Template/ScriptTemplateCreator.cs", _path + "Editor/Lucine/Tools/Templates/ScriptTemplateCreator.cs");
